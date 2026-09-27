@@ -1,0 +1,57 @@
+ body{
+    background-color: black;
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ 
+
+ h1 {
+    color: purple;
+    font-size: 40px;
+    text-align: center;
+ }
+
+ input{
+    height: 40px;
+    border: 2px solid purple;
+    background-color: #333;
+    color: #eee;
+    outline: nome;
+    width: 75%;
+    border-radius: 10px;
+ }
+
+ button {
+    border:none;
+    height: 44px;
+    background-color: purple;
+    color: #fff;
+    cursor: pointer;
+    width: 80px
+ }
+
+ button:hover{
+    background-color: rgb(189, 0, 189);
+ }
+
+ li {
+    background-color: #4a148c;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 10px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+ }
+
+ ul{
+    list-style-type: none;
+    padding: 0;
+ }
+
+ span{
+    cursor: pointer;
+ }
